@@ -16,8 +16,9 @@
            </h1> 
         </div>
 
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="paragraph"></textarea>
         <button>invia</button>
+        
 
     </form>
 </body>

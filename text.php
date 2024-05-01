@@ -1,4 +1,9 @@
+<?php
+ $paragraph = $_GET['paragraph'] ;
+ $replaceString= str_replace('juve', '***', $paragraph)
 
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,6 +13,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Ecco il testo</h1>
+    <div>
+        <p> Ecco <?php echo $paragraph?> </p>
+    </div>
+
+    <div>
+        <h3>
+            Ecco la lunghezza del paragrafo <?php echo strlen($paragraph)?>
+        </h3>
+
+        <h3>
+            Ecco tutto con la parola censurata <?php echo $replaceString ?>
+        </h3>
+
+        
+    </div>
 </body>
 </html>
