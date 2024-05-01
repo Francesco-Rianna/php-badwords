@@ -1,3 +1,6 @@
+<?php
+  
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +9,16 @@
     <title>php-badwords</title>
 </head>
 <body>
-    
+    <form action="text.php" method="GET">
+        <div>
+           <h1>
+             <label for="">Inserisci un testo</label>
+           </h1> 
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button>invia</button>
+
+    </form>
 </body>
 </html>
