@@ -26,6 +26,8 @@
             Ecco tutto con la parola censurata <?php echo $replaceString ?>
         </h3>
 
+        <h3> Ecco la lunghezza del testo con la parola censurate <?php echo strlen($replaceString)?></h3>
+
         
     </div>
 </body>
